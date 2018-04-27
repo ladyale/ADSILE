@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Privilegios de usuario</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href=C:\Users\ASLECOL-SISTEMAS\Downloads\estilos.css>
+</head>
+  
+<body>
+ <h1 style="color:#3366ff;background-color:#e6f7ff"><center><em>VARIEDADES SHEKINAH</center></h1>
+ <fieldset>
+
+  <img src="http://papeleriaseshat.es/wp-content/uploads/2017/01/seshat-libreria-papeleria-transparente.png" title="con derechos de autor" alt="adsi" style="max-width: 30%; max-height: 90px;"> 
+  
+  <div id="formulario">
+    <form name= "Privilegios de usuario" action="proceso.php" method="post">
+	
+	<table borde="0" align="center">
+	 <tr>
+	     <td class="centradoverde" colspan="2"><em>Privilegios de usuario:</td>  
+     </tr>  
+	 
+	 <tr>
+	     <td class="descripcion">Nombre de usuario:</td>
+	     <td class="valor">
+		 <input type="text" name="Nombredu" maxlength="10" size="20" placeholder="Ejemplo"/>
+		 </td>
+     </tr>  
+	 
+	  <tr>
+	   <td class="descripcion">Contraseña:</td>
+	   <td class="valor">
+	   <input type="password" name="Contraseña" placeholder="Alfanumerica"/>
+	   </td>
+     </tr>  
+	 
+	  <tr>
+	   <td class="descripcion">Nombre Completo:</td>
+	   <td class="valor">
+	   <input type="text" name="Nombrec" placeholder="Leidy Paola Gomez S"/>
+	   </td>
+     </tr>  
+	 
+	 <tr>
+	   <td class="descripcion">Tel/Celular:</td>
+	   <td class="valor">
+	   <input type="text" name="TC" maxlength="10" placeholder="3108571245"/>
+	   </td>
+     </tr>
+	 
+	  <tr>
+	   <td class="descripcion">Correo electronico:</td>
+	   <td class="valor">
+	   <input type="text" name="Correoe" placeholder="ejemplo34@gmail.com"/>
+	   </td>
+     </tr>  
+	 
+	  <tr>
+	   <td class="descripcion">Identificacion:</td>
+	   <td class="valor">
+	   <input type="radio" name="Identificacion" value="M"/>C.C
+	   <input type="radio" name="Identificacion" value="F"/>T.I
+	   <input type="radio" name="Identificacion" value="F"/>R.C
+	   </td>
+     </tr>  
+	 
+	  <tr>
+	   <td valign="top" class="descripcion">Privilegios</td>
+	   <td class="valor">
+	   <input type="checkbox" name="Opestudio" value="1" />Administrador<br />
+	   <input type="checkbox" name="Opestudio" value="1" />Usuario<br />
+	   <input type="checkbox" name="Opestudio" value="1" />Coordinador<br />
+	  </td>
+     </tr>  
+	 
+	  <tr>
+	   <td class="descripcion">Estado</td>
+	   <td class="valor">
+	   <select name="cboCiudad2">
+	   <option value="1">Activo</option>
+	   <option value="2">Inactivo</option>
+	   
+	   </select>
+	   </td>
+     </tr>  
+	 
+	  <tr>
+	   <td class="descripcion">Abjunte su Documento</td>
+	   <td class="valor">
+	   <input type="file" name="Abjunte" />
+	   </td>
+     </tr>  
+	 
+	  <tr>
+	   <td class="descripcion">Foto</td>
+	   <td class="valor"> 
+	   <input type="file" name="Foto" />
+	   </td>
+     </tr>  
+	 
+	  <tr>
+	   <td class="centradoverde" colspan="2">
+	   <input type="submit" name="Actualizarp" value="Actualizar Privilegios " onclick="alert('Datos actualizados correctamente');">
+	   
+	   </td>
+	   
+     </tr>  
+	 </table>
+	</fieldset>
+	 </form>
+	 </div>
+  </body>
+  </html>
