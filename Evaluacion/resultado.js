@@ -1,17 +1,20 @@
-funtion resultado(){
-	var a=number(document.getElementById('a').value;
-	var b=number(document.getElementById('b').value;
-	var c=number(document.getElementById('c').value;
-	var res1=document.getElementById('res1').value;
-	var res1=document.getElementById('res2').value;
+function resultado(){
+	var a=Number(document.getElementById('caja1').value);
+	var b=Number(document.getElementById('caja2').value);
+	var c=Number(document.getElementById('caja3').value);
 	
-	coeficiente 1 = parseInt(a);
-    coeficiente 2 = parseInt(b);
-	coeficiente 4 = parseInt(c);
-    resultado = parseInt(resultado);
-    resultado = a * b;
+	d=((b*b)-4*a*c);
+	if (d<0){
+		 alert("No existen soluciones reales")
+    }else{
+        x1=(-b+Math.sqrt(d))/(2*a);
+        x2=(-b-Math.sqrt(d))/(2*a);
 	
-	resultado =document.getElementById('resultado').value;
-	return false;
 	
+        Number(document.getElementById('x1').value=x1);
+        Number(document.getElementById('x2').value=x2);
+	
+
 }
+}
+

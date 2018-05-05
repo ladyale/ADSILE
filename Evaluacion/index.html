@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+ <meta charset="UTF-8">
 <title>Ecuación</title>
+<script type="text/javascript" src="resultado"></script>
+</head>
 <body>
-<fieldset>
+<form>
 Ingresar coeficiente a:
-<input type="text" id="a"><br><br>
+<input type="text" id="caja1"><br><br>
 Ingresar coeficiente b:
-<input type="text" id="b"><br><br>
+<input type="text" id="caja2"><br><br>
 Ingresar coeficiente c:
-<input type="text" id="c"><br><br>
+<input type="text" id="caja3"><br><br>
 Respuesta:
-<input type="button" value="Valor" onclick="valor()"><br><br>
-<br>SOLUCIÓN<br><br>
-Valores x1:
-<input type="text" id="res1"><br><br>
-Valores x2:
-<input type="text" id="res2"><br><br>
-<script type="text/javascript" scr="resultado.js"></script>
-</fieldset>
+<input type="button" value="respuesta" onclick="resultado()"><br><br>
+    Resultado x1:<input type="text" id="x1">
+   Resultado x2:<input type="text" id="x2">
+
+</form>
 </body>
+
+
 </html>
